@@ -71,6 +71,7 @@ main{
 }
 
 /* players area css */
+
 .player{
     margin-bottom: 110px;
 }
@@ -103,6 +104,7 @@ main{
 }
 
 /* highlight area css */
+
 .hightlight{
     margin-bottom: 70px;
 }
@@ -130,7 +132,8 @@ main{
     width: 100%;
 }
 
-/*tests-area-css*/
+/* top-player-area */
+
 .top-player{
     background-color: #2D25A0;
     margin-bottom: 50px;
@@ -163,7 +166,7 @@ section.top-players{
     border-radius: 10px;
 }
 
-/* final match css  */
+/* final match area css  */
 
 .match{
     margin-bottom: 70px;
@@ -200,10 +203,9 @@ footer{
     height: 32px;
 }
 
-
-
-
-/* media queries */
+/* --------------
+media queries
+-------------- */
 
 @media only screen and (max-width:688px) {
     html,body{
@@ -224,11 +226,15 @@ footer{
        display: block;
        width: 100%;
    }
+   .hero-right {
+    width: 80%;
+    margin-top: 20px;
+    }
    .hero-right img {
     width: 100%;
     padding: 20px 0 20px 0;
     margin-left: 0;
-}
+    }
    .hero-text h1{
        font-size: 30px;
     line-height: 1.5;
@@ -282,8 +288,6 @@ footer{
         height: 80px;
     }
 
-
-   
 }
 
 
